@@ -11,19 +11,20 @@ main{
     width: 1200px;
     height: 500px;
 }
-.heading-title{
+.new-content{
     text-align: center;
 }
 .content-parents{
     display: flex;
 }
 .container{
+    
     width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center ;
-    background: red;
+    /* background: red; */
     margin: auto;
 }
 .text-content{
@@ -61,4 +62,7 @@ main{
 .video-container{
     width="100%" 
     height="0" 
+}
+.content-text-web{
+    text-align: center;
 }
