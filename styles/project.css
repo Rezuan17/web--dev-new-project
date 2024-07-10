@@ -54,3 +54,11 @@ main{
 .image-content-3{
     width: 50%;
 }
+
+.content-text{
+    text-align: center;
+}
+.video-container{
+    width="100%" 
+    height="0" 
+}
