@@ -35,3 +35,22 @@ main{
 .content-parents-2{
     display: flex;
 }
+.text-content-2{
+    width: 50%;
+}
+
+.image-content-2{
+   width: 50%;
+}
+
+
+.content-parents-3{
+    display: flex;
+}
+
+.text-content-3{
+    width: 50%;
+}
+.image-content-3{
+    width: 50%;
+}
