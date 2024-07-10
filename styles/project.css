@@ -1,8 +1,37 @@
 
 
-.azeret-mono-normal {
-  font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  
-  font-style: normal;
+
+/*shared styles*/
+main{
+    width: 1200px;
+}
+
+.box{
+    background-image: url(/B10A1-Challenge-Begins/assets/Hero-bg.png);
+    width: 1200px;
+    height: 500px;
+}
+.heading-title{
+    text-align: center;
+}
+.content-parents{
+    display: flex;
+}
+.container{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    background: red;
+    margin: auto;
+}
+.text-content{
+    width: 50%;
+}
+.image-content{
+    width: 50%;
+}
+.content-parents-2{
+    display: flex;
 }
