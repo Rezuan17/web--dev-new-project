@@ -7,12 +7,24 @@
 /*shared styles*/
 main{
     width: 1200px;
+    margin-left: 152px;
+    margin-right: 152px;
 }
 
 .box{
     background-image: url(/B10A1-Challenge-Begins/assets/Hero-bg.png);
     width: 1200px;
     height: 500px;
+}
+
+.content-work{
+    background-color: #90acd6;
+}
+.new-content{
+    text-align: center;
+}
+/* .content-parents{
+    background-color: #FFFFFF; */
 }
 
 .new-content .h2{
@@ -79,9 +91,11 @@ main{
 .content-text{
     text-align: center;
 }
-.video-container{
-    width="100%" 
-    height="0" 
+.video-container,.video{
+    background: #000;
+    width: 800px; 
+    height:400px; 
+    margin:auto;
 }
 .content-text-web{
     text-align: center;
@@ -89,7 +103,12 @@ main{
 .content-parents-4{
     display:flex;
     justify-content: center;
+   
 }
+.image-content-5,.image-content-6{
+    margin-left: 20px;
+}
+
 
 .content-box-2{
     background-image: url(/B10A1-Challenge-Begins/assets/handshake.jpg);
@@ -100,13 +119,25 @@ main{
     
     text-align: center;
     padding: 64px 145px 205px 205px;
+    margin-top: 150px;
 
 }
-.content-text-8 .h3{
-font-weight: bold;
+/* .content-text-8 .h3{ */
+h3{
+    font-weight: bold;
 font-size: 32px;
 color:#FFFFFF;
 }
+
+.iamge-content-4 .content-text-4{
+    background-color: #FF4C1E;
+}
+
+/* p{
+    font-size: 16px;
+    color:#FFFFFF;
+} */
+
 
 /* content-text-8
 .content-text-8{
@@ -133,6 +164,7 @@ color:#FFFFFF;
 .image-link{
     display: flex;
     justify-content: space-between;
+    margin-top: 150px;
 }
 /* .icon-item li{
     display: flex;
