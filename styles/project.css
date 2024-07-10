@@ -66,3 +66,19 @@ main{
 .content-text-web{
     text-align: center;
 }
+.content-parents-4{
+    display:flex;
+    justify-content: center;
+}
+
+.content-box-2{
+    background-image: url(/B10A1-Challenge-Begins/assets/handshake.jpg);
+    width: 1200px;
+    height: 550px;
+}
+.content-text-8{
+    
+    text-align: center;
+    padding: 64px 145px 205px 205px;
+
+}
