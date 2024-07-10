@@ -1,4 +1,7 @@
-
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
 
 
 /*shared styles*/
@@ -11,8 +14,10 @@ main{
     width: 1200px;
     height: 500px;
 }
-.new-content{
-    text-align: center;
+
+.new-content .h2{
+    font-weight: 800px;
+    font-size: 32px;
 }
 .content-parents{
     display: flex;
@@ -26,7 +31,22 @@ main{
     align-items: center ;
     /* background: red; */
     margin: auto;
+    
 }
+
+.btn-primary{
+    font-weight: 600; 
+    background-color: #0D1321; 
+    color:#FFFFFF;
+    padding: 17px 45px;
+    border-radius: 5px;
+}
+
+.container .h2{
+    font-weight: 800px;
+    font-size: 32px;
+}
+
 .text-content{
     width: 50%;
 }
@@ -81,4 +101,52 @@ main{
     text-align: center;
     padding: 64px 145px 205px 205px;
 
+}
+.content-text-8 .h3{
+font-weight: bold;
+font-size: 32px;
+color:#FFFFFF;
+}
+
+/* content-text-8
+.content-text-8{
+    padding: 192px 64px 228px 228px;
+    gap: 16px; */
+
+.input-type-text{
+    text-align: center;
+}
+
+.contact{
+    font-weight: 600;  
+    color: #0D1321;
+    padding:  20px 215px 19px 19px ;
+    border-radius: 5px
+}
+.subtitle{
+    
+    font-weight: 500px;  
+    color: #0D1321;
+    padding: 25px 25px 17px 17px;
+    border-radius: 5px;
+}
+.image-link{
+    display: flex;
+    justify-content: space-between;
+}
+/* .icon-item li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+} */
+ ul{
+display: flex;
+
+ }
+
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
